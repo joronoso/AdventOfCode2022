@@ -24,9 +24,7 @@ f.close()
 
 star1 = 0
 for i in range(0, len(lista), 3):
-    print(lista[i])
     if compare(eval(lista[i]), eval(lista[i+1]))!=-1: 
-        print('Sumamos '+str((i/3) + 1))
         star1 += (i/3) + 1
     
 print(star1)
